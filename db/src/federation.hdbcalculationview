@@ -3,11 +3,16 @@
 <descriptions defaultDescription="federation"/>
 <localVariables/>
 <variableMappings/>
-<dataSources/>
+<dataSources>
+  <DataSource id="TLOG_F_C">
+    <resourceUri>TLOG_F_C</resourceUri>
+  </DataSource>
+</dataSources>
 <calculationViews>
   <calculationView xsi:type="Calculation:UnionView" id="Union_1">
     <viewAttributes/>
     <calculatedViewAttributes/>
+    <input node="TLOG_F_C"/>
   </calculationView>
 </calculationViews>
 
@@ -29,7 +34,7 @@
     
   
     <shape expanded="true" modelObjectName="Union_1" modelObjectNameSpace="CalculationView">
-      <upperLeftCorner x="369" y="30"/>
+      <upperLeftCorner x="418" y="156"/>
       <rectangleSize height="30" width="160"/>
     </shape>
   </shapes>
